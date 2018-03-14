@@ -134,11 +134,18 @@ be any sort of plain text, including Markdown, ASCII art, etc.
 
 If your solution requires the installation of additional libraries, packages,
 etc., please provide details on how we should do this in order to run your
-code.  Assume that we will be running this code on an Ubuntu Linux system. If
-you can provide a Dockerfile with your solution, that is a plus.
+code.  Assume that we will be running this code on an Ubuntu Linux system
+(Trusty or Xenial). If you can provide a Dockerfile with your solution, that
+is a plus.
 
 Do not assume that we have expertise with the language you have chosen for
 your implementation, unless that language is Perl or Go.
+
+Include instructions on how to run your solution either in a `README` file of
+some sort or as the output of a `your-solution --help` flag. Your instructions
+should tell us how to specify the location of the data directory, how to
+specify the distro name(s) to look for, and how to specify JSON or text
+output.
 
 ## Sharing Your Code with Us
 
