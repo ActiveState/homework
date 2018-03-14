@@ -36,7 +36,7 @@ these fronts. If you do, let us know and we will take a look. We’re looking
 for something with the following characteristics:
 
 * This must be your project, meaning that you wrote most of the code and you
-  are a primary maintainer.
+  are the project's primary maintainer.
 * It should be something that is neither trivially small nor overwhelmingly
   large. We’re looking for something that ranges from 500-2000(ish) lines of
   code. Anything much smaller won’t have enough complexity for us to evaluate
