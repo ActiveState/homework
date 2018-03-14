@@ -94,10 +94,9 @@ arguments:
 
 * `--name` - The name of a distribution for which dependencies should be
   resolved. May be specified more than once.
-* `--text` - By default, output will be as JSON but when this flag is passed
-  the output should be some sort of human-readable tree representation.
 
-The JSON output for dependency tree should look like this:
+The program should output a JSON object to `stdout`. That JSON object should
+look like this:
 
 ```json
 {
@@ -112,9 +111,10 @@ The JSON output for dependency tree should look like this:
 }
 ```
 
-In other words, you should completely resolve the dependency tree for all
-runtime prereqs. That means some distros may appear more than once in the
-tree.
+The object's keys are distribution names and the values are in turn objects
+where the keys are distribution names. You should completely resolve the
+dependency tree for all runtime prereqs. That means some distros may appear
+as an object key more than once.
 
 If a **module name (not a distro name)** appears in the list of core modules
 in `data/core-modules.json` then you can omit it from the output entirely. You
@@ -125,9 +125,6 @@ Perl that a distro needs.)
 
 If a particular distro has no dependencies, represent it as an empty object in
 the JSON.
-
-In `--text` mode, pick a representation of the output that you like. This can
-be any sort of plain text, including Markdown, ASCII art, etc.
 
 ### Instructions for Us
 
@@ -142,9 +139,8 @@ your implementation, unless that language is Perl or Go.
 
 Include instructions on how to run your solution either in a `README` file of
 some sort or as the output of a `your-solution --help` flag. Your instructions
-should tell us how to specify the location of the data directory, how to
-specify the distro name(s) to look for, and how to specify JSON or text
-output.
+should tell us how to specify the location of the data directory and how to
+specify the distro name(s) to look for.
 
 ## Sharing Your Code with Us
 
