@@ -84,8 +84,8 @@ dependency trees.
 In the metadata, dependencies are defined by phase ("runtime", "test", etc.)
 and by relationship ("requires", "recommends", "suggests").
 
-We are only interested in "runtime" and "test" phase dependencies where the
-relationship is "requires". You can ignore everything else.
+We are only interested in "runtime" phase dependencies where the relationship
+is "requires". You can ignore everything else.
 
 ### The Program
 
@@ -102,20 +102,10 @@ The JSON output for dependency tree should look like this:
 ```json
 {
     "DateTime": {
-        "runtime": {
-            "DateTime-Locale": {
-                "runtime": {
-                    "Params-ValidationCompiler": {
-                        "runtime": { "..." },
-                        "test": { "..." },
-                    },
-                    "..."
-                },
-                "test": { "..." }
+        "DateTime-Locale": {
+            "Params-ValidationCompiler": {
+                "..."
             }
-        },
-        "test": {
-            "CPAN-Meta-Check": { "..." }
         }
     },
     "..."
@@ -123,9 +113,9 @@ The JSON output for dependency tree should look like this:
 ```
 
 In other words, you should completely resolve the dependency tree for all
-runtime and test prereqs. That means some distros may appear more than once in
-the tree. However, circular dependencies are an error, and you can handle them
-by printing an error and exiting.
+runtime prereqs. That means some distros may appear more than once in the
+tree. However, circular dependencies are an error, and you can handle them by
+printing an error and exiting.
 
 If a **module name (not a distro name)** appears in the list of core modules
 in `data/core-modules.json` then you can omit it from the output entirely. You
