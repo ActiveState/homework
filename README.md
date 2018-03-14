@@ -103,8 +103,8 @@ arguments:
 * `--name` - The name of a distribution for which dependencies should be
   resolved. May be specified more than once.
 
-The program should output a JSON object to `stdout`. That JSON object should
-look like this:
+The program should output a single JSON object to `stdout`. That JSON object
+should look like this:
 
 ```json
 {
@@ -123,6 +123,10 @@ The object's keys are distribution names and the values are in turn objects
 where the keys are distribution names. You should completely resolve the
 dependency tree for all runtime prereqs. That means some distros may appear
 as an object key more than once.
+
+If your program is given multiple `--name` flags you should still produce a
+single JSON object. Each of the distro names given on the command line should
+be a top-level key in the JSON object you produce.
 
 If a **module name (not a distro name)** appears in the list of core modules
 in `data/core-modules.json` then you can omit it from the output entirely. You
