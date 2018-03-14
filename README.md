@@ -25,6 +25,14 @@ We are also happy to accept solutions provided in the following languages:
 If you would like to use a different language, please contact us before
 continuing with this assignment.
 
+## Time Limit
+
+We'd like you to complete this assignment within one week of receiving
+instructions to do this from your recruiting contact. However, we understand
+that this may not always be possible, for any number of reasons. If this poses
+a problem for you, please let your recruiting contact know what timeline works
+for you.
+
 ## Requesting an Exemption
 
 The purpose of this assignment is to help us better understand your abilities
