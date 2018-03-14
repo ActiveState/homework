@@ -114,8 +114,7 @@ The JSON output for dependency tree should look like this:
 
 In other words, you should completely resolve the dependency tree for all
 runtime prereqs. That means some distros may appear more than once in the
-tree. However, circular dependencies are an error, and you can handle them by
-printing an error and exiting.
+tree.
 
 If a **module name (not a distro name)** appears in the list of core modules
 in `data/core-modules.json` then you can omit it from the output entirely. You
