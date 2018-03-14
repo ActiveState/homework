@@ -167,9 +167,3 @@ You can share it with us in one of two ways:
     both offer private repos as part of their free plans.
 * Send an email containing a zip or tarball attachment. You can send this to
   your recruiting contact at ActiveState.
-
-## Copyright
-
-This repository is copyright ActiveState Software, Inc. 2018. You may
-distribute it under the [Attribution-ShareAlike 4.0
-International](https://creativecommons.org/licenses/by-sa/4.0/).
