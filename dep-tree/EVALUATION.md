@@ -6,7 +6,7 @@ These are the questions that we should ask when reviewing a homework submission.
   not, did the applicant get special permission to use something else?
 * Is the submission runnable on Ubuntu Trusty or Xenial, or via Docker? Did
   the instructions supplied by the candidate outline all the steps needed to
-  get this owrking, including installing packages (system, language, etc.)?
+  get this working, including installing packages (system, language, etc.)?
   Are there any unreasonably complicated steps required (editing `/etc` files,
   installing many packages from non-official sources, creating complex config
   files, etc.)?
