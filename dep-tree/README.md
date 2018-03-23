@@ -66,6 +66,9 @@ We have provided some sample data in the form of the `META.json` files that
 accompany most Perl libraries uploaded to CPAN. See
 https://metacpan.org/pod/CPAN::Meta::Spec for documentation on this format.
 
+This data does not contain circular references and you do not need to handle
+those in your program.
+
 For this assignment, the only important key in this metadata is the
 **prereqs** key.
 
