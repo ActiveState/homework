@@ -16,7 +16,7 @@ These are the questions that we should ask when reviewing a homework submission.
   `--help` flag?
   * Note that if the submission isn't in Go or Perl it must have a `README`.
 * Does the submission pass our test harness?
-* Does the code handly corner cases sanely?
+* Does the code handle corner cases sanely?
   * Cannot find metadata for a distro.
   * Cannot resolve a module name to a distro name.
   * No `--name` flags on the command line.
