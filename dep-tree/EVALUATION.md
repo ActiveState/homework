@@ -25,7 +25,7 @@ These are the questions that we should ask when reviewing a homework submission.
   * Is it split into reasonable sized subs/methods?
   * Is there a clear split between the command line program and libraries?
 * Does the code avoid repeating similar blocks of code for similar tasks?
-* Does the code us third party libraries and tools as appropriate?
+* Does the code use third party libraries and tools as appropriate?
 * Is the code in a modern style for the language? Does it avoid problematic
   idioms, packages, etc. for that language?
 
