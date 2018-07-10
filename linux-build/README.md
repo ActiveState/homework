@@ -34,7 +34,7 @@ contact know what timeline works for you.
 
 ## Assignment
 
-Document and automate building Python 3.5.4, the `gevent` python packqge
+Document and automate building Python 3.5.4, the `gevent` python package
 and a reasonable selection of their dependent libraries on either CentOS
 7 or Ubuntu 18.04.  You should write detailed notes on downloading and
 building each component by hand, provide a script which automates this

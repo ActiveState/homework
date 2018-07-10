@@ -3,6 +3,9 @@
 These are the questions that we should ask when reviewing a homework submission.
 
 * Is the submission documentation on hand-building the components sufficiently detailed?
+  * are download locations for components listed?
+  * are external dependencies on build tools documented?
+  * are the instructions sufficient for someone else to follow and get a successful build?
 * Is all documentation clear and readable?
 * Are the instructions on how to use the automated solution sufficient?
 * Are the instructions on how to add packages to the automated solution sufficient?
