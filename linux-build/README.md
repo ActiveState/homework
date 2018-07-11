@@ -1,8 +1,8 @@
-Thank you for your interest in working with ActiveState as a developer. This
-programming assignment will help us to evaluate your skills relative to our
-working environment and is used as a primary tool in our hiring process. Later
-on in the hiring process we will have one of our developers pair with you on
-making changes to your code, fixing bugs, etc.
+Thank you for your interest in working with ActiveState as a build
+engineer. This programming assignment will help us to evaluate your skills
+relative to our working environment and is used as a primary tool in our
+hiring process. Later on in the hiring process we will have one of our
+developers pair with you on making changes to your code, fixing bugs, etc.
 
 We expect this assignment to occupy no more than 3 hours of your time.
 We are primarily looking for high-quality documentation and we recognize
@@ -12,7 +12,7 @@ documentation before code tests and other niceties.
 We strongly encourage the use of third party tools and packages as you
 work on this assignment.
 
-We are also to accept automation solutions provided in the following
+We will also accept automation solutions provided in the following
 languages:
 
 * Bash
