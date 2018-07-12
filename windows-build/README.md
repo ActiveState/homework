@@ -35,11 +35,12 @@ contact know what timeline works for you.
 ## Assignment
 
 Document and automate building Python 3.5.4, the `cblosc` python package
-and a reasonable selection of their dependent libraries on Windows 10
-or Windows Server 2016 using Visual C++ Build Tools 2017.  You should
-write detailed notes on downloading and building each component by hand,
-provide a script which automates this process and provide documentation
-on how to use this script and extend it for other extensions.
+and a minimal selection of their dependent libraries from source on
+Windows 10 or Windows Server 2016 using Visual C++ Build Tools 2017.
+You should write detailed notes on downloading and building each
+component by hand, provide a script which automates this process and
+provide documentation on how to use this script and extend it for other
+extensions.
 
 When selecting dependencies to build, prefer libraries which change often
 and/or are likely to have security issues and steer away from libraries
