@@ -34,18 +34,16 @@ contact know what timeline works for you.
 
 ## Assignment
 
-Document and automate building Python 3.5.4, the `gevent` python package
-and a minimal selection of their dependent libraries from source on
-either CentOS 7 or Ubuntu 18.04.  You should write detailed notes on
-downloading and building each component by hand, provide a script which
-automates this process and provide documentation on how to use this
-script and extend it for other extensions.
+Document and automate building `Python 3.5.4` and the `python-blosc
+1.14.2` python package from source on either CentOS 7 or Ubuntu 18.04.
+You should also build `OpenSSL 1.0.2o` from source and have your
+python build use it and build `c-blosc 1.5.1` from source and have your
+python-blosc build use it.
 
-When selecting dependencies to build, prefer libraries which change often
-and/or are likely to have security issues and steer away from libraries
-which are tightly bound to the system.  For example it is not necessary
-to rebuild glibc from source, but it is desirable to rebuild OpenSSL.
-
+You should write detailed notes on downloading and building each
+component by hand, provide a script which automates this process and
+provide documentation on how to use this script and extend it for other
+extensions.
 
 ## Sharing Your Code and Docs With Us
 
