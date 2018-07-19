@@ -21,8 +21,8 @@ languages:
 * Python
 * Ruby
 
-If you would like to use a different language, please contact us before
-continuing with this assignment.
+If you would like to use a different language or tool, please contact
+us before continuing with this assignment.
 
 ## Time Limit
 
@@ -36,8 +36,9 @@ contact know what timeline works for you.
 
 Document and automate building `Python 3.5.4` and the `python-blosc
 1.14.2` python package from source on either Windows 10 64-bit or Windows
-Server 2016 64-bit using a Visual Studio toolchain.  You should also build
-`c-blosc 1.5.1` from source and have your python-blosc build use it.
+Server 2016 64-bit using the Visual Studio 2015 toolchain.  You should
+also build `c-blosc 1.5.1` from source and have your python-blosc build
+use it.
 
 You should write detailed notes on downloading and building each
 component by hand, provide a script which automates this process and
@@ -57,3 +58,13 @@ You can share it with us in one of two ways:
     both offer private repos as part of their free plans.
 * Send an email containing a zip or tarball attachment. You can send this to
   your recruiting contact at ActiveState.
+
+## HINTS
+
+* Always discover the flags needed for each component required to build for
+  a 64-bit architecture
+* To build a usable Python on windows, it is best to use the scripts in
+  Tools\\msi in the python source distribution and then install python using
+  the resultant installer
+* c-blosc uses CMake to build.  The correct flag for a 64-bit build of
+  c-blosc using Visual Studio 2015 is ```-G "Visual Studio 14 2015 amd64"```

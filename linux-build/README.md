@@ -21,8 +21,8 @@ languages:
 * Python
 * Ruby
 
-If you would like to use a different language, please contact us before
-continuing with this assignment.
+If you would like to use a different language or tool, please contact
+us before continuing with this assignment.
 
 ## Time Limit
 

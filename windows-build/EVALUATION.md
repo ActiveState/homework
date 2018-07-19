@@ -25,4 +25,3 @@ These are not expected as a baseline, but their presence is a good thing.
 * Documentation is in Markdown
 * Adding a new Python package is trivial
 * Adding a new C library is simple
-* `BLOSC` library is compiled externally rather than using the version supplied with `cblosc`
