@@ -45,6 +45,10 @@ component by hand, provide a script which automates this process and
 provide documentation on how to use this script and extend it for other
 extensions.
 
+If you don't have a ready-built windows system with Visual Studio 2015
+installed, we have provided an [importable virtual machine for
+VirtualBox (19Gb)](https://s3.amazonaws.com/activestate-homework-support/ActiveState+Homework+Builder.ova)
+
 ## Sharing Your Code and Docs With Us
 
 We do not want your solution available on the public Internet. **Do not
