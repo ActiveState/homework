@@ -35,9 +35,9 @@ contact know what timeline works for you.
 ## Assignment
 
 Document and automate building `Python 3.5.4` and the `python-blosc
-1.14.2` python package from source on either CentOS 7 or Ubuntu 18.04.
+1.5.1` python package from source on either CentOS 7 or Ubuntu 18.04.
 You should also build `OpenSSL 1.0.2o` from source and have your
-python build use it and build `c-blosc 1.5.1` from source and have your
+python build use it and build `c-blosc 1.14.2` from source and have your
 python-blosc build use it.
 
 You should write detailed notes on downloading and building each

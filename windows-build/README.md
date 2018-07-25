@@ -35,9 +35,9 @@ contact know what timeline works for you.
 ## Assignment
 
 Document and automate building `Python 3.5.4` and the `python-blosc
-1.14.2` python package from source on either Windows 10 64-bit or Windows
+1.5.1` python package from source on either Windows 10 64-bit or Windows
 Server 2016 64-bit using the Visual Studio 2015 toolchain.  You should
-also build `c-blosc 1.5.1` from source and have your python-blosc build
+also build `c-blosc 1.14.2` from source and have your python-blosc build
 use it.
 
 You should write detailed notes on downloading and building each
@@ -71,4 +71,4 @@ You can share it with us in one of two ways:
   Tools\\msi in the python source distribution and then install python using
   the resultant installer
 * c-blosc uses CMake to build.  The correct flag for a 64-bit build of
-  c-blosc using Visual Studio 2015 is ```-G "Visual Studio 14 2015 amd64"```
+  c-blosc using Visual Studio 2015 is ```-G "Visual Studio 14 2015 Win64"```
