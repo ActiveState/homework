@@ -13,7 +13,7 @@ We strongly encourage the use of third party packages as you work on this
 assignment. However, see the note at the end about providing us with
 instructions on installing/running your assignment.
 
-We are also happy to accept solutions provided in the following languages:
+We are happy to accept solutions provided in the following languages:
 
 * Go
 * JavaScript
