@@ -150,7 +150,7 @@ code.  Assume that we will be running this code on an Ubuntu Linux system
 is a plus.
 
 Do not assume that we have expertise with the language you have chosen for
-your implementation, unless that language is Perl or Go.
+your implementation.
 
 Include instructions on how to run your solution either in a `README` file of
 some sort or as the output of a `your-solution --help` flag. Your instructions
