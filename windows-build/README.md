@@ -54,14 +54,8 @@ VirtualBox (19Gb)](https://s3.amazonaws.com/activestate-homework-support/ActiveS
 We do not want your solution available on the public Internet. **Do not
 put this code into a public repo in order to share it with us.**
 
-You can share it with us in one of two ways:
-
-* Make a private repo and share it with us. You should have already been told
-  who to invite if we asked you do this homework.
-  * Note that while GitHub charges for private repos, BitBucket and GitLab
-    both offer private repos as part of their free plans.
-* Send an email containing a zip or tarball attachment. You can send this to
-  your recruiting contact at ActiveState.
+Please send an email containing a zip or tarball attachment. You can send this
+to your recruiting contact at ActiveState.
 
 ## HINTS
 
