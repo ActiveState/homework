@@ -12,7 +12,7 @@ documentation before code tests and other niceties.
 We strongly encourage the use of third party tools and packages as you
 work on this assignment.
 
-We will also accept automation solutions provided in the following
+We are happy to accept automation solutions provided in the following
 languages:
 
 * Bash
