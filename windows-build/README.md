@@ -51,11 +51,10 @@ VirtualBox (19Gb)](https://s3.amazonaws.com/activestate-homework-support/ActiveS
 
 ## Sharing Your Code and Docs With Us
 
+Please upload a zip or tarball attachment to our recruiting system.
+
 We do not want your solution available on the public Internet. **Do not
 put this code into a public repo in order to share it with us.**
-
-Please send an email containing a zip or tarball attachment. You can send this
-to your recruiting contact at ActiveState.
 
 ## HINTS
 
