@@ -47,7 +47,7 @@ extensions.
 
 If you don't have a ready-built windows system with Visual Studio 2015
 installed, we have provided an [importable virtual machine for
-VirtualBox (19Gb)](https://s3.amazonaws.com/activestate-homework-support/ActiveState+Homework+Builder.ova)
+VirtualBox (19Gb)](https://s3.amazonaws.com/activestate-homework-support/ActiveState+Homework+Builder.ova).
 Unless you are highly confident you have the correct toolchain already
 installed it is **strongly recommended** you use this VM for the homework.
 Installing and debugging issues with build toolchains is outside the
