@@ -28,10 +28,10 @@ continuing with this assignment.
 ## Time Limit
 
 We'd like you to complete this assignment within one week of receiving
-instructions to do this from your recruiting contact. However, we understand
-that this may not always be possible, for any number of reasons. If this poses
-a problem for you, please let your recruiting contact know what timeline works
-for you.
+instructions to do this from your recruiting contact, unless you were told
+otherwise. However, we understand that this may not always be possible, for
+any number of reasons. If this poses a problem for you, please let your
+recruiting contact know what timeline works for you.
 
 ## Requesting an Exemption
 
