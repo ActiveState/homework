@@ -49,19 +49,16 @@ The PyPi API documentation is avialable here
 A sample call to fetch information for the `Pendulum` package
 * `https://pypi.org/pypi/Pendulum/json`
 
-
 ### Using Boilerplate is OK
+
 It's totally fine if you use a light weight boilerplate to kickstart your development process.
-  
 
 ### Instructions for Us
 
 Please list any instructions for us to get your code up and running, you can put that information into a `README` file or something like that.
 
-
 ## Sharing Your Code with Us
 
 Please upload a zip or tarball attachment to our recruiting system.
 
-We do not want your solution available on the public Internet. **Do not
-put this code into a public repo in order to share it with us.**
+We do not want your solution available on the public Internet. **Do not put this code into a public repo in order to share it with us.**
