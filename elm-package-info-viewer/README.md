@@ -29,13 +29,13 @@ Your assignment is to build a small front-end application written in Elm that us
 #### Requirements
 
 * The app allows the user to select from the three packages above.
-* By default, no pacakge is selected.
-* When one of the packages is selected it should display information for just that package.
-* When displaying a package it should list the following information...
+* By default, no package is selected.
+* When one of the packages is selected, the app displays information for just that package.
+* When displaying a package, teh app list the following information...
   * The package name
   * A list of available versions
     * Found in `releases` in the response
-    * We don't care about the associated meta-data for each version, just the version numbers are OK
+    * We don't care about the associated meta-data for each version, just the version numbers
   * A list of related links
     * Found in `project_urls` in the response
   * A list of dependencies for that package
@@ -46,12 +46,16 @@ Your assignment is to build a small front-end application written in Elm that us
 The PyPi API documentation is avialable here
 * https://warehouse.readthedocs.io/api-reference/json.html
 
-A sample call to fetch information for the `Pendulum` package
+A sample call to fetch information for the `Pendulum` package looks like this...
 * `https://pypi.org/pypi/Pendulum/json`
+
+### Styling
+
+Styling the output of the app is not especially important other than presenting the output in a easy-to scan and hierarchical fashion. If you wish, you can use an existing styling framework or just relying on native element styling is OK too.
 
 ### Using Boilerplate is OK
 
-It's totally fine if you use a light weight boilerplate to kickstart your development process.
+It's totally fine if you use a light weight boilerplate app to kickstart your development process. If you do, please indicate your starting point by sharing a link to the repo or a zip archive of where you started.
 
 ### Instructions for Us
 
