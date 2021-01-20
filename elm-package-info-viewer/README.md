@@ -31,7 +31,7 @@ Your assignment is to build a small front-end application written in Elm that us
 * The app allows the user to select from the three packages above.
 * By default, no package is selected.
 * When one of the packages is selected, the app displays information for just that package.
-* When displaying a package, teh app list the following information...
+* When displaying a package, the app lists the following information:
   * The package name
   * A list of available versions
     * Found in `releases` in the response
@@ -43,23 +43,23 @@ Your assignment is to build a small front-end application written in Elm that us
 
 #### API Info
 
-The PyPi API documentation is avialable here
+The PyPi API documentation is available here:
 * https://warehouse.readthedocs.io/api-reference/json.html
 
-A sample call to fetch information for the `Pendulum` package looks like this...
+A sample call to fetch information for the `Pendulum` package looks like this:
 * `https://pypi.org/pypi/Pendulum/json`
 
 ### Styling
 
-Styling the output of the app is not especially important other than presenting the output in a easy-to scan and hierarchical fashion. If you wish, you can use an existing styling framework or just relying on native element styling is OK too.
+Styling the output of the app is not especially important other than presenting the output in a easy-to scan and hierarchical fashion. If you wish, you can use an existing styling framework, or just rely on native element styling.
 
 ### Using Boilerplate is OK
 
-It's totally fine if you use a light weight boilerplate app to kickstart your development process. If you do, please indicate your starting point by sharing a link to the repo or a zip archive of where you started.
+It's totally fine if you use a lightweight boilerplate app to kickstart your development process. If you do, please indicate your starting point by sharing a link to the repo or a zip archive of where you started.
 
 ### Instructions for Us
 
-Please list any instructions for us to get your code up and running, you can put that information into a `README` file or something like that.
+Please include a `README` file with instructions on how to get your code up and running.
 
 ## Sharing Your Code with Us
 
