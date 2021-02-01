@@ -141,6 +141,51 @@ Perl that a distro needs.)
 If a particular distro has no dependencies, represent it as an empty object in
 the JSON.
 
+#### Example Output for Testing
+
+The `Package-Stash` distribution has a small dependency tree, consisting of
+the following:
+
+* Package-Stash
+  * B
+  * Carp
+  * Dist::CheckConflicts
+    * Carp
+    * Exporter
+    * Module::Runtime
+      * perl
+    * base
+    * perl
+    * strict
+    * warnings
+  * Getopt::Long
+  * Module::Implementation
+    * Carp
+    * Module::Runtime
+      * perl
+    * Try::Tiny
+      * Carp
+      * Exporter
+      * constant
+      * perl
+      * strict
+      * warnings
+    * strict
+    * warnings
+  * Scalar::Util
+  * Symbol
+  * constant
+  * perl
+  * strict
+  * warnings
+
+**This is the entire dependency tree for `Package-Stash` as modules, not
+distributions. Note that this example includes both "perl" and modules shipped
+with the Perl code.**
+
+The terminal nodes do not have any dependencies of their own. You can use this
+to evaluate the output of your program.
+
 ### Instructions for Us
 
 If your solution requires the installation of additional libraries, packages,
