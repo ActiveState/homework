@@ -16,9 +16,9 @@ instructions on installing/running your assignment.
 We are happy to accept solutions provided in the following languages:
 
 * Go
+* Java
 * JavaScript
 * Perl
-* PHP
 * Python
 * Ruby
 
