@@ -6,5 +6,4 @@ These are the questions that we should ask when reviewing a homework submission.
 * Does the submission include documentation covering the requested explanations?
 * Is this documentation comprehensible by someone with only basic knowledge of data representation?
 * Does the documentation contain enough detail for us to understand how the schema is useful?
-
-### Bonus Points
+* Is the schema normalized to an appropriate extent?

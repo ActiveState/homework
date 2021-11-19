@@ -9,11 +9,6 @@ We are primarily looking for high-quality design and documentation
 and we recognize that you may not have time to fully polish your work,
 so focus on design before other niceties.
 
-We are happy to accept solutions provided in the following formats:
-
-* ERD/ERM
-* DDL
-
 If you would like to use a different format or tool, please contact us before
 continuing with this assignment.
 
@@ -59,7 +54,7 @@ accompany most Perl libraries uploaded to CPAN. See
 https://metacpan.org/pod/CPAN::Meta::Spec for documentation on this format.
 
 This data does not contain circular references and you do not need to handle
-those in your program.
+those in your assignment.
 
 For this assignment, the only important key in this metadata is the
 **prereqs** key.
@@ -81,29 +76,28 @@ fetch additional data from CPAN or anywhere else on the Internet.
 The other is a `data/core-modules.json` file. This contains an array of
 modules which are shipped with the Perl core.
 
-Your assignment requires reading this metadata and producing fully resolved
-dependency trees.
-
 In the metadata, dependencies are defined by phase ("runtime", "test", etc.)
 and by relationship ("requires", "recommends", "suggests").
 
 Your task is to propose a database schema to house this data which allows
 for efficient execution of the following types of queries:
 
-* given a package name and a phase, return the graph which represents
-  the dependency closure of that package for that phase.
-* given a package name and a phase, return a list of packages that depend
-  on the given package directly
+* given a distro name and a phase, return the graph which represents
+  the dependency closure of that distro for that phase.
+* given a distro name and a phase, return a list of distros that depend
+  on the given distro directly in that phase
 
 Explain how these queries might be structured, in SQL or otherwise,
 and how the schema facilitates their efficient execution.
 
 Should time permit, consider that the build phase dependency closure
-of a given package contains the packages that are direct build phase
-dependencies of the given package and the runtime phase closure of
-dependencies of those packages.  This is because when building a given
-package a build system will need to run the direct build dependencies
-of that package, not build them.
+of a given distro contains the distros that are direct build phase
+dependencies of the given distro and the runtime phase closure of
+dependencies of those distros.  This is because when building a given
+distro a build system will need to run the direct build dependencies
+of that distro, not build them.
+
+We are happy to accept solutions in the form of ERD/ERMs or DDL.
 
 ## Sharing Your Code with Us
 
