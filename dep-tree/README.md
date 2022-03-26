@@ -181,7 +181,7 @@ the following:
 
 **This is the entire dependency tree for `Package-Stash` as modules, not
 distributions. Note that this example includes both "perl" and modules shipped
-with the Perl code.**
+with the Perl core.**
 
 The terminal nodes do not have any dependencies of their own. You can use this
 to evaluate the output of your program.
