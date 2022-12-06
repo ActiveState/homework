@@ -1,4 +1,4 @@
-Thank you for your interest in working with ActiveState as a
+Thank you for your interest in working with ActiveState as a data pipeline
 developer. This assignment will help us to evaluate your skills relative
 to our working environment and is used as a primary tool in our hiring
 process. Later on in the hiring process we may have one of our developers
@@ -48,6 +48,11 @@ you think is appropriate. We'll get back to you promptly to let you know if it
 is, in which case you can skip the homework assignment entirely.
 
 ## Assignment
+
+In this assignment, you will analyze and evaluate structured data to propose a
+data design that allows us to store, query, and retrieve useful information. For
+this example, we will use dependency information for one of the languages we
+support.
 
 We have provided some sample data in the form of the `META.json` files that
 accompany most Perl libraries uploaded to CPAN. See
