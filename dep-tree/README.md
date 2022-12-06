@@ -141,7 +141,7 @@ Perl that a distro needs.)
 If a particular distro has no dependencies, represent it as an empty object in
 the JSON.
 
-#### Example Output for Testing
+#### Example Tree
 
 The `Package-Stash` distribution has a small dependency tree, consisting of
 the following:
@@ -181,17 +181,14 @@ the following:
 
 **This is the entire dependency tree for `Package-Stash` as modules, not
 distributions. Note that this example includes both "perl" and modules shipped
-with the Perl code.**
-
-The terminal nodes do not have any dependencies of their own. You can use this
-to evaluate the output of your program.
+with the Perl code.** The terminal nodes do not have any dependencies of their own.
 
 ### Instructions for Us
 
 If your solution requires the installation of additional libraries, packages,
 etc., please provide details on how we should do this in order to run your
-code.  Assume that we will be running this code on an Ubuntu Linux system
-(Trusty or Xenial). If you can provide a Dockerfile with your solution, that
+code. Assume that we will be running this code on a standard Linux system.
+If you can provide a Dockerfile with your solution, that
 is a plus.
 
 Do not assume that we have expertise with the language you have chosen for
