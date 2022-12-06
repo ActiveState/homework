@@ -187,8 +187,8 @@ with the Perl code.** The terminal nodes do not have any dependencies of their o
 
 If your solution requires the installation of additional libraries, packages,
 etc., please provide details on how we should do this in order to run your
-code.  Assume that we will be running this code on an Ubuntu Linux system
-(Trusty or Xenial). If you can provide a Dockerfile with your solution, that
+code. Assume that we will be running this code on a standard Linux system.
+If you can provide a Dockerfile with your solution, that
 is a plus.
 
 Do not assume that we have expertise with the language you have chosen for
